@@ -1,7 +1,8 @@
-a, r1 = divmod(23, 2)
-a, r2 = divmod(a, 2)
-a, r3 = divmod(a, 2)
-a, r4 = divmod(a, 2)
-a, r5 = divmod(a, 2)
-a
-print(r5, r4, r3, r2, r1)
+a = 23
+b = ""
+
+while a > 0:
+    b = str(a % 2) + b
+    a = a // 2
+
+print(b)
