@@ -32,7 +32,7 @@ alphabet = [
 ]
 
 while True:
-    random_char = random.choice(alphabet)  # 名前からランダムな文字を取得
+    random_char = random.choice(alphabet)  
     print(f"{random_char}")
 
     if name == random_char:
