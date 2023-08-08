@@ -7,4 +7,9 @@ def number_to_day(num=0):
         day = "昨日"
     else:
         day = "今日より１日を超えて離れた日"
-        return day
+    return day
+
+
+number_to_day()
+number_to_day(1)
+number_to_day(num=3)
