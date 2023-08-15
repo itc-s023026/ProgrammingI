@@ -1,3 +1,2 @@
-members = ["Yamada", "Tanaka", "Satou", "Suzuki"]
-name = members.pop(3)
-print(name)
+members = ["Yamada", "Tanaka", "Satou", "Suzuki"].pop(3)
+print(members)
